@@ -1,0 +1,26 @@
+{
+  "name": "hobnob",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon -w . --exec npm run serve",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/rcasazza/hobnob.git"
+  },
+  "author": "Bob Casazza",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}
